@@ -4,6 +4,14 @@
 }
 
 body {
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  background: url('rood.jpg') no-repeat;
+  background-image: url("foto.png");
+  background-size: cover;
+}
+
+p {
+  color: red;
+}
+
+article {
+  color: red;
 }
