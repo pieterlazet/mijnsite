@@ -97,7 +97,6 @@ footer h3 {
 }
 
 img{
-  position: fixed;
-  top: 20%;
-  left: 0,01%;
+  height: 400px;
+  width: 800px;
 }
