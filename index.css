@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 2,5px;
+  padding: 2,5px;
 }
 
 body {
@@ -87,20 +87,29 @@ footer h3 {
 
 .wrapper {
   margin: 0 auto 0 auto;
-  width: 960px;
+  width: 90%;
 }
 
 nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  background-color: transparent;
 }
 
-nav{
-    background-color: rgba(255, 0, 0, 0.5)
+nav > div > ul {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+#badges{
+  scrolling: "no";
+  width: 96%;
+  height: 70%;
 }
 
 img{
-  height: 400px;
-  width: 800px;
+  height: 70%;
+  width: 90%;
 }
